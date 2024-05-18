@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Style for the stopwatch display -->
+  <style>
+    #display {
+      font-size: 4em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Bootstrap layout -->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <!-- Stopwatch display -->
+        <h1 id="display">00:00:00.00</h1>
+        <!-- Stopwatch control buttons -->
+        <div class="text-center">
+          <button class="btn btn-success mr-2" onclick="startTimer()">Start</button>
+          <button class="btn btn-warning" onclick="stopTimer()">Stop</button>
+          <button class="btn btn-danger ml-2" onclick="resetTimer()">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Stopwatch variables declaration
+    let timerInterval;
+    let startTime;
+    let elapsedTime = 0;
+    let isRunning = false;
+
+    // Function to start the stopwatch
+    function startTimer() {
+      if (!isRunning) {
+        isRunning = true;
+        startTime = Date.now() - elapsedTime;
+        timerInterval = setInterval(updateDisplay, 10);
+      }
+    }
+
+    // Function to stop the stopwatch
+    function stopTimer() {
+      if (isRunning) {
+        isRunning = false;
+        clearInterval(timerInterval);
+      }
+    }
+
+    // Function to reset the stopwatch
+    function resetTimer() {
+      stopTimer(); // Stop the stopwatch
+      elapsedTime = 0; // Reset elapsed time
+      document.getElementById('display').textContent = '00:00:00.00'; // Update display to show 00:00:00.00
+    }
+
+    // Function to update the stopwatch display
+    function updateDisplay() {
+      const currentTime = Date.now();
+      elapsedTime = currentTime - startTime;
+      const formattedTime = formatTime(elapsedTime);
+      document.getElementById('display').textContent = formattedTime;
+    }
+
+    // Function to format time in the format HH:MM:SS.ss
+    function formatTime(milliseconds) {
+      const totalMilliseconds = milliseconds % 1000;
+      const totalSeconds = Math.floor(milliseconds / 1000);
+      const totalMinutes = Math.floor(totalSeconds / 60);
+      const totalHours = Math.floor(totalMinutes / 60);
+
+      const hours = totalHours % 60;
+      const minutes = totalMinutes % 60;
+      const seconds = totalSeconds % 60;
+
+      return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds) + '.' + pad(totalMilliseconds, 3);
+    }
+
+    // Function to add leading zeros to maintain the format HH:MM:SS.ss
+    function pad(number, size = 2) {
+      let padded = String(number);
+      while (padded.length < size) {
+        padded = '0' + padded;
+      }
+      return padded;
+    }
+  </script>
+    <!-- Information about the programmer -->
+    <!-- Jose Calazans Abrantes Junior -->
+    <!-- GitHub: https://github.com/joseabrantesjr -->
+</body>
+</html>
