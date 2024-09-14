@@ -1,7 +1,3 @@
-
-#### **3.4. `docs/metodologia.md`**
-
-```markdown
 ---
 title: Metodologia Científica
 ---
