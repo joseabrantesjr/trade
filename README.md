@@ -58,6 +58,7 @@ python run.py
 
    ```
     Digite o símbolo da empresa (por exemplo, AAPL para Apple Inc.): PBR
+    Preço de Fechamento Atual: $14.53
 
     Previsão de preços para a próxima semana:
     16/09/2024: $14.53
@@ -73,7 +74,7 @@ python run.py
     Recomendação: Considere comprar. O modelo prevê uma tendência de alta.
 
     Peso ótimo da ação na carteira (segundo o modelo de Markowitz): 100.00%
-    
+
    ```
 
 2. **Otimizar Portfólio**:
