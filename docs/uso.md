@@ -1,7 +1,3 @@
-
-#### **3.3. `docs/uso.md`**
-
-```markdown
 ---
 title: Como Usar
 ---
