@@ -1,7 +1,7 @@
 
 ---
 
-# 📈 Stock Price Prediction and Portfolio Optimization with LSTM and Markowitz Model
+# 📈 Previsão de preço de ações e otimização de portfólio com LSTM e modelo de Markowitz
 
 [![Stars](https://img.shields.io/github/stars/seu_usuario/seu_repositorio.svg?style=social)](https://github.com/seu_usuario/seu_repositorio/stargazers)
 [![Forks](https://img.shields.io/github/forks/seu_usuario/seu_repositorio.svg?style=social)](https://github.com/seu_usuario/seu_repositorio/network/members)
@@ -30,8 +30,8 @@ Este projeto combina a **previsão de séries temporais** com **LSTM** e a **oti
 Primeiro, faça o clone deste repositório:
 
 ```bash
-git clone https://github.com/seu_usuario/seu_repositorio.git
-cd seu_repositorio
+git clone https://github.com/joseabrantesjr/trade.git
+cd trade
 ```
 
 ### 2. Instale as dependências
