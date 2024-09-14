@@ -1,1 +1,6 @@
 venv
+.bundle
+.github
+Gemfile
+_config.yml
+vendor
