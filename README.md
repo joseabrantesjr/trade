@@ -128,8 +128,3 @@ Nosso objetivo é criar um projeto de código aberto robusto, onde todos possam 
 **Licença**: Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-### ⚡ Fork Now and Contribute to the Next Big Feature!
----
-
-Este README incentiva a comunidade a se envolver através de uma abordagem clara e detalhada, proporcionando um caminho fácil para contribuir e aprender, enquanto promove o engajamento via estrelas, forks, e pull requests.
