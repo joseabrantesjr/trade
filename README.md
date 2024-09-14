@@ -3,8 +3,8 @@
 
 # 📈 Previsão de preço de ações e otimização de portfólio com LSTM e modelo de Markowitz
 
-[![Stars](https://img.shields.io/github/stars/seu_usuario/seu_repositorio.svg?style=social)](https://github.com/seu_usuario/seu_repositorio/stargazers)
-[![Forks](https://img.shields.io/github/forks/seu_usuario/seu_repositorio.svg?style=social)](https://github.com/seu_usuario/seu_repositorio/network/members)
+[![Stars](https://img.shields.io/github/stars/joseabrantesjr/trade.svg?style=social)](https://github.com/joseabrantesjr/trade/stargazers)
+[![Forks](https://img.shields.io/github/forks/joseabrantesjr/trade.svg?style=social)](https://github.com/joseabrantesjr/trade/network/members)
 
 Preveja o preço de ações da próxima semana e otimize seu portfólio de investimentos utilizando modelos avançados de redes neurais LSTM e o Modelo de Otimização de Markowitz.
 
@@ -72,7 +72,7 @@ python run.py
 
     Variação percentual prevista: 1.07%
     Recomendação: Considere comprar. O modelo prevê uma tendência de alta.
-    
+
    ```
 
 2. **Otimizar Portfólio**:
