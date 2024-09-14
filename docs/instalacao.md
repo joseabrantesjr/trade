@@ -6,7 +6,7 @@ title: Instalação
 
 Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o projeto em sua máquina local.
 
-## 🔧 Requisitos
+## Requisitos
 
 - Python
 - Git

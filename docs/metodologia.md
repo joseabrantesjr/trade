@@ -6,7 +6,7 @@ title: Metodologia Científica
 
 Este projeto combina técnicas de **machine learning**, **deep learning** e **otimização de portfólio** para fornecer previsões de preços de ações e recomendações de alocação de ativos.
 
-## 🧠 Modelos Utilizados
+## Modelos Utilizados
 
 ### 1. **Redes Neurais LSTM**
 
@@ -24,7 +24,7 @@ Este projeto combina técnicas de **machine learning**, **deep learning** e **ot
   - Markowitz, H. (1952). Portfolio selection. *The Journal of Finance*.
   - Fabozzi, F. J., Gupta, F., & Markowitz, H. M. (2002). The legacy of modern portfolio theory. *The Journal of Investing*.
 
-## 🔍 Processo de Desenvolvimento
+## Processo de Desenvolvimento
 
 1. **Coleta de Dados**:
    - Utilização da biblioteca `yfinance` para obter dados históricos de preços de ações.
@@ -44,6 +44,6 @@ Este projeto combina técnicas de **machine learning**, **deep learning** e **ot
    - Previsão de preços para os próximos 5 dias úteis.
    - Otimização da alocação de ativos na carteira usando o modelo de Markowitz.
 
-## 💡 Considerações Finais
+## Considerações Finais
 
 A combinação de LSTM para previsão de preços e a otimização de portfólio de Markowitz proporciona uma abordagem integrada para análise e gestão de investimentos. Essa metodologia é respaldada por estudos científicos que demonstram a eficácia dessas técnicas no mercado financeiro.
