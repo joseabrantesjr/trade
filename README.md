@@ -72,9 +72,7 @@ python run.py
 
     Variação percentual prevista: 1.07%
     Recomendação: Considere comprar. O modelo prevê uma tendência de alta.
-
-    Peso ótimo da ação na carteira (segundo o modelo de Markowitz): 100.00%
-
+    
    ```
 
 2. **Otimizar Portfólio**:
