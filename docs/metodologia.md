@@ -6,7 +6,7 @@ title: Metodologia Científica
 
 Esta programação é projetada para realizar a previsão de preços de ações e otimização de portfólio utilizando técnicas avançadas de **machine learning** e **deep learning**, além de aplicar a teoria de **otimização de portfólio de Markowitz**. Aqui está uma descrição detalhada do seu propósito e da eficácia, baseada em evidências científicas:
 
-## 📊 Objetivo
+## Objetivo
 
 Este script tem como foco a previsão de preços de ações com base em dados históricos do mercado financeiro, seguido da recomendação de estratégias de compra ou venda. Ele também incorpora um modelo de otimização de portfólio para identificar a alocação ideal de ativos em uma carteira, de acordo com a **Teoria Moderna do Portfólio** (Markowitz, 1952).
 
