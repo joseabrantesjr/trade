@@ -32,6 +32,21 @@ Este script tem como foco a previsão de preços de ações com base em dados hi
 
 2. **Otimização de Portfólio com Markowitz**:
     - A Teoria Moderna do Portfólio, introduzida por Markowitz (1952), continua sendo a base para a alocação de ativos, apesar do surgimento de modelos mais sofisticados. Isso ocorre porque o modelo de Markowitz é computacionalmente eficiente e oferece uma abordagem simples para otimizar o risco e retorno, conforme validado por Fabozzi et al. (2002).
+    - A alocação sugerida pelo modelo de Markowitz considera não apenas a tendência de preço dos ativos, mas também o **retorno esperado e a volatilidade (risco)** de cada ativo, além da **correlação** entre os ativos. Mesmo que um ativo tenha uma previsão de baixa a curto prazo, ele pode ser útil na composição do portfólio por causa de três principais fatores:
+
+        ### 1. **Diversificação do Risco**
+        A carteira de Markowitz é construída para **minimizar o risco** para um dado nível de retorno esperado, levando em conta a **correlação** entre os ativos. Um ativo com tendência de baixa pode ter baixa correlação com outros ativos na carteira, ajudando a reduzir o risco total. Assim, mesmo com uma previsão negativa, ele pode **equilibrar o risco** da carteira e, portanto, ainda ser recomendado para alocação.
+
+        ### 2. **Volatilidade Baixa**
+        Ativos com tendências de baixa podem ter **volatilidade (risco)** menor em relação a outros ativos. Se o ativo tem um comportamento estável e previsível, mesmo em tendência de queda, ele pode ser incluído na carteira para **reduzir a volatilidade total** da carteira. Isso ajuda a suavizar as oscilações dos preços, promovendo mais estabilidade.
+
+        ### 3. **Retorno de Longo Prazo**
+        Embora a previsão de preços seja para a próxima semana, a alocação de Markowitz está mais focada em um horizonte de longo prazo. Um ativo que está caindo agora pode ter retornos melhores no futuro, e o modelo pode levar isso em consideração ao sugerir que o ativo seja mantido no portfólio.
+
+        ### 4. **Diversificação de Risco com Ações de Baixa Correlação**
+        Se esses ativos de baixa tendência atual forem **descorrelacionados** ou até negativamente correlacionados com outros ativos da carteira, eles ajudam a diminuir o risco sistêmico. Em outras palavras, mesmo que um ativo esteja em queda, ele pode **reduzir a exposição ao risco geral da carteira** quando combinado com outros ativos.
+
+        Em resumo, o modelo de Markowitz não foca apenas nas tendências de curto prazo, mas na **diversificação do risco** e na **otimização do portfólio** como um todo, buscando equilibrar ativos que se complementam para maximizar o retorno e minimizar o risco.
 
 ### Eficácia da Solução
 
