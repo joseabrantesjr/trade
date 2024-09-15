@@ -11,5 +11,6 @@ Este projeto utiliza técnicas avançadas de **machine learning** e **deep learn
 
 - [Instalação](docs/instalacao.md)
 - [Como Usar](docs/uso.md)
+- [Explicação Detalhada](docs/detalhes.md)
 - [Metodologia Científica](docs/metodologia.md)
 - [Referências](docs/referencias.md)
