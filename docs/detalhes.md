@@ -197,6 +197,3 @@ def main():
 ---
 
 Este código usa técnicas avançadas de **machine learning** e **otimização de portfólio** para prever o preço de ações e sugerir alocações ideais, automatizando decisões financeiras.
-```
-
-Esse conteúdo agora pode ser salvo no arquivo `detalhes.md`.
